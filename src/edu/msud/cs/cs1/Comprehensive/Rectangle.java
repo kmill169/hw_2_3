@@ -4,7 +4,7 @@ public class Rectangle extends Parallelogram {
 
     
     Rectangle(double x, double y, double a, double b) {   	
-    	super(x,y,a,b,90);
+    	super(x,y,a,b,90 * Math.PI / 180);
     }
 
     
